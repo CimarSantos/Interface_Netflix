@@ -1,0 +1,77 @@
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: Simpsons;
+    src: local(Simpsons), url(../../Simpsons.otf);
+}
+
+/* Elementos base*/
+
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: "Arial Black", 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #aaaaaa;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    color: #ffffff;
+}
+
+/*Filme Principal*/
+
+.titulo{
+    font-size: 40px;
+}
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/Capa_Simpsons.jpg);
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.descricao{
+    margin-bottom: 40px;
+}
+
+.botao{
+    color: white;
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    padding: 15px 30px;
+    margin-right: 15px; 
+}
