@@ -9,11 +9,6 @@
     box-sizing: border-box;
 }
 
-@font-face{
-    font-family: Simpsons;
-    src: local(Simpsons), url(../../Simpsons.otf);
-}
-
 /* Elementos base*/
 
 body{
@@ -50,6 +45,7 @@ nav a:hover{
 
 .titulo{
     font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .filme-principal{
@@ -65,6 +61,7 @@ nav a:hover{
 }
 
 .descricao{
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
@@ -73,5 +70,16 @@ nav a:hover{
     background-color: rgba(0,0,0,.50);
     border: none;
     padding: 15px 30px;
-    margin-right: 15px; 
+    margin-right: 15px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 4px;
 }
