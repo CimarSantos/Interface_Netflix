@@ -87,3 +87,9 @@ nav a:hover{
 .botao i{
     margin-right: 4px;
 }
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
