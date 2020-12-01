@@ -18,10 +18,14 @@ body{
 }
 
 header .container{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.container, .botoes {
+    margin-left: 30px;
 }
 
 .logo{
